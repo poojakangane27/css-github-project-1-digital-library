@@ -35,28 +35,135 @@ body {
     gap: 20px;
     cursor: pointer;
 }
-.menu-item{
+
+.menu-item {
     text-decoration: none;
     color: white;
 }
+
 .auth-links-container {
     display: flex;
     gap: 20px;
     cursor: pointer;
 }
-.container{
+
+header img {
+    background-color: #4b3D2D;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header {
+    background-color: #4b3D2D;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    text-align: center;
+}
+
+div a {
+    color: white;
+    margin: 0 15px;
+    font-size: 10px;
+}
+
+.book-container {
     display: flex;
     justify-content: space-evenly;
-     padding: 10px;
-     
+    padding: 10px;
+    flex-wrap: wrap;
+
 }
-.item{
-    height: 400px;
-    width : 300px;
-    display: flex;
-    border: 1px solid black;
+
+.book-card {
+    background-color: lightyellow;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px grey;
 }
-.kids-images{
-    align-items: center;
+
+.book-card:hover {
+    transform: translateY(-4px);
+}
+
+.book-card img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.book-title {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.book-author {
+    font-size: 13px;
+}
+
+.price {
+    font-size: 15px;
+    margin: 8px 0;
     display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    background-color: lightyellow;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px grey;
+}
+
+.book-card:hover {
+    transform: translateY(-4px);
+}
+
+.book-card img {
+    width: 100px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.book-title {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.book-author {
+    font-size: 13px;
+}
+
+.price {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #4b3D2D;
+    color: white;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button :hover {
+    background-color: #e3b785;
 }

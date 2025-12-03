@@ -1,64 +1,68 @@
-body{
-    background-color: #E3D4B9;
-    
-}
-
-.login-title{
-    text-align: center;
-    margin-bottom: 0%;
-}
-
+/* Main container */
 .container-login-signup {
+    width: 750px;
+    margin: auto;
+    margin-top: 40px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
+    background: #f3eedc;
+    border-radius: 15px;
+    border: 1px solid burlywood;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Left form box */
+.subcontainer {
+    width: 60%;
+}
+
+/* Right image box */
+.image-box {
+    width: 40%;
     
+    margin: 0;
+    padding: 0;
+    margin: 0px;
 }
 
-.subconatianer{
-    height: 300px;
-    width: 300px;
-    margin-top: 20px;
-    margin-left: 15px;
+.image-box img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    /* image perfectly fit hoil */
+    border-radius: 15px;
+    display: block;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left:-80px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+/* Button */
+.login-button {
+    width: 65%;
+    padding: 12px;
+    background: #b5835a;
+    color: white;
+    font-size: 18px;
     border-radius: 10px;
-    background-color:#C2B280;
-    text-align:left;
-    align-items: center;
-}
-
-.login-info{
-    text-align: left;
-}
-
-.form {
-    height: 450px;
-    width: 600px;
-    margin: 100px;
-    border: 1px solid rgb(181, 183, 184);
-    border-radius: 10px;
-    background-color:#C2B280;
-    text-align: center;
-}
-
-
-
-.form:hover{
-    border: 0.2px solid #af7a42;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-}
-
-.login-signup-button {
-    width: 177px;
-    background-color: #8B5B29;
-    padding: 6px 14px;
-    border-radius: 10px;
+    border: none;
     cursor: pointer;
-    border: #b9b6b6;
-    border: 1px solid rgb(181, 183, 184);
-    text-decoration-color: white;
 }
 
-.login-signup-button:hover {
-    background: #E3D4B9;
+.login-button:hover {
+    background: #8b5e3b;
 }
-
