@@ -98,3 +98,9 @@ body {
         flex-direction: column;
     }
 }
+@media screen and (max-width:768px) {
+    .main-content-container{
+        flex-direction: column;
+        align-items: center;
+    }   
+}
