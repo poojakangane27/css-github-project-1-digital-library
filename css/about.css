@@ -4,6 +4,49 @@ body {
     background-color: #E3D4B9;
 }
 
+.box-1 {
+    width: 300px;
+    height: 350px;
+    margin: 5px;
+    border: 1px solid rgb(242, 227, 227);
+    background-color: white;
+}
+
+.box-1:hover {
+    border: 1px solid rgb(215, 155, 194);
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .imgs-about {
-    height: 30px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.box-head {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.info {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    padding-bottom: 15px;
+
+}
+
+.link {
+    font-size: 18px;
+    padding: 20px;
+    color: yellowgreen;
+    cursor: pointer;
 }
