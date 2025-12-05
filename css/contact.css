@@ -7,7 +7,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 
 .sub-container-1 {
@@ -18,9 +18,9 @@ body {
     border-radius: 10px;
     padding-top: 40px;
 
-  
-    
-  
+
+
+
 }
 
 .title {
@@ -70,57 +70,64 @@ body {
     color: whitesmoke;
     border: none;
     cursor: pointer;
-    box-shadow:2px 2px 2px gray ;
+    box-shadow: 2px 2px 2px gray;
 }
-.button:hover{
-    box-shadow:2px 2px 5px 1px gray;
-    background-color:#584931 ;
+
+.button:hover {
+    box-shadow: 2px 2px 5px 1px gray;
+    background-color: #584931;
 }
 
 .sub-container-2 {
-   
+
     height: 400px;
     width: 400px;
     margin-top: 60px;
     border-radius: 10px;
     padding-top: 20px;
- 
-}
-.location{
-    width: 17px;
-    align-items: center;
-    vertical-align:middle;
- 
 
 }
-.sample-page-2{
+
+.location {
+    width: 17px;
+    align-items: center;
+    vertical-align: middle;
+
+
+}
+
+.sample-page-2 {
 
     height: 400px;
     width: 300px;
     margin-left: 20px;
-   
+
 }
-.location-logo{
+
+.location-logo {
     text-decoration: none;
     color: black;
     align-items: center;
     margin-bottom: 20px;
 }
-.info-task{
+
+.info-task {
     margin-bottom: 10px;
     position: relative;
 }
-.button-style{
-    border-radius:15px ;
-    border:none ;
-    background-color:#ebe8e2;
+
+.button-style {
+    border-radius: 15px;
+    border: none;
+    background-color: #ebe8e2;
     margin-right: 10px;
     padding: 10px;
 }
-.learn-more-button{
+
+.learn-more-button {
     border-radius: 10px;
-    border:none ;
-    background-color:#ebe8e2;
+    border: none;
+    background-color: #ebe8e2;
     margin-top: 10px;
     margin-left: 35px;
     padding: 8px;
@@ -169,7 +176,7 @@ body {
         margin-left: 10px;
     }
 
-   
+
     .images {
         left: 50%;
         transform: translateX(-50%);
@@ -190,5 +197,3 @@ body {
         margin-left: 10px;
     }
 }
-
-
