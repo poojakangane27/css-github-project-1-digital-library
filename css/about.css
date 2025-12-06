@@ -80,3 +80,38 @@ body {
     color: yellowgreen;
     cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .head-1 {
+        justify-content: center;
+        font-size: 19px;
+    }
+
+    .about-para {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .box-1 {
+        width: 290px;
+        height: 340px;
+        background-color: cornsilk;
+        box-shadow: 10px 10px 5px 1px rgb(242, 242, 246);
+        border: 0;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
